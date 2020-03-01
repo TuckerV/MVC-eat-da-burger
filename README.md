@@ -2,7 +2,7 @@
 UU Bootcamp Node Express Handlebars project
 
 Tucker Vassau
-![Img]()
+![Img](https://github.com/TuckerV/MVC-eat-da-burger/blob/master/public/assets/images/Screenshot_1.png)
 
 ## description
 
