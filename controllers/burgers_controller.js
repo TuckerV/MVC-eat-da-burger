@@ -16,7 +16,7 @@ router.post("/api/add", function(req, res){
     })
 })
 
-router.put("api/eat/:id", function(req, res){
+router.put("/api/eat/:id", function(req, res){
     let id = req.params.id;
 
     burger.update(id, data => {
@@ -24,7 +24,7 @@ router.put("api/eat/:id", function(req, res){
     });
 });
 
-router.delete("api/remove/:id", function(req, res){
+router.delete("/api/remove/:id", function(req, res){
     let id = req.params.id;
 
     burger.delete(id, data => {
