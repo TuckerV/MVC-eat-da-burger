@@ -10,9 +10,9 @@ var orm = {
           cb(result);
         });
     },
-    create: function(burger, cb) {
+    create: function(burger_name, cb) {
         let queryString = "INSERT INTO burgers (burger_name) VALUES(?);";
-        connection.query(queryString, [burger], (err, res) => {
+        connection.query(queryString, [burger_name], (err, res) => {
             if (err){
                 throw err;  
             } 
